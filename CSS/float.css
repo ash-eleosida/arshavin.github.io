@@ -1,0 +1,54 @@
+h1 {
+    font-size: 165%;
+    font-weight: normal;
+}
+p {
+    color: gray;
+}
+footer {
+    color: red;
+}
+footer p {
+    color: blue;
+}
+h1{
+    color:green;
+    text-align:center;
+}
+h2{
+    color:black;
+    text-align:left;
+}
+p{
+    color:rgb(199, 103, 103)
+}
+header p{
+    color:rgb(20, 141, 182)
+}
+header p span{
+    color:rgb(255, 115, 0);
+}
+.color {
+    background-color: rgb(255, 255, 0);
+}
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.content-area {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.main {
+    width: 70%;
+    float: left;
+}
+.support {
+    width: 30%;
+    float: left;
+}
+.fix {
+    clear: both;
+}

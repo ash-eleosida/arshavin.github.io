@@ -1,0 +1,307 @@
+/* HEADER */
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Gabarito:wght@600&family=Roboto:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(220, 220, 220);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+header h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-family: "Gabarito", sans-serif;
+    font-size: 230%;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/* -- SITE NAV -- */
+
+li, a, button {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 130%;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+
+.links li a {
+    
+    padding: 0px 20px;
+}
+
+.links li a:hover {
+    color: rgb(140, 15, 205);
+}
+
+button {
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    border-color: rgb(220, 220, 220);
+    border-bottom: solid rgb(220, 220, 220);
+    border-right: solid rgb(220, 220, 220);
+    border-left: solid rgb(220, 220, 220);
+    border-top: solid rgb(220, 220, 220);
+}
+
+button:hover {
+    background-color: rgb(200, 200, 200);
+
+}
+
+/* BODY */
+
+body {
+    background-color: rgb(220, 220, 220);
+    background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(220, 220, 220), rgb(220, 220, 220), rgb(140, 15, 205) );
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: left;
+    color: black;
+    font-family: "Gabarito", sans-serif;
+    padding-left: 189px;
+    font-size: 430%;
+    margin-top: 50px;
+    color: rgb(140, 15, 205);
+}
+
+.highlight {
+    color: rgb(140, 15, 205);
+}
+
+.image-1 {
+    float: right;
+    padding-right: 230px;
+    margin-top: 7%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .hide {
+        display: none;
+    }
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-family: "Gabarito", sans-serif;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-right: 35%;
+}
+
+.fix {
+    clear: both;
+}
+
+.images {
+    position: relative;
+    margin-left: 60%;
+    margin-top: -28.8%;
+}
+
+.images-2 {
+    position: relative;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
+.images-3 {
+    position: relative;
+    margin-left: 24.7%;
+    margin-top: -21.4%;
+    margin-bottom: 10%;
+}
+
+/* -- TABLE -- */
+
+table {
+    border-spacing: 0.5;
+    border-collapse: collapse;
+    max-width: 50px;
+    display: block;
+    margin-left: 24.5%;
+    margin-top: 2%;
+    font-family: "Gabarito", sans-serif;
+}
+
+table th {
+    text-align: center;
+    background-color: rgb(140, 15, 205);
+    color: rgb(220, 220, 220);
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5) ;
+    border: 2px solid black;
+}
+
+table tr {
+    width: 300px;
+    height: 100px;
+    font-size: 150%;
+    border: 2px solid black;
+}
+
+table td {
+    text-align: center;
+    width: 150%;
+}
+
+td img {
+    border-right: 2px solid black;
+    display: block;
+}
+
+.col-d {
+    width: 150%;
+}
+
+/* -- SLIDESHOW -- */
+
+.image-banner {
+    position: relative;
+    margin-left: 12.5%;
+    z-index: 10;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.image-banner img {
+    display: block;
+    margin-left: 20%;
+}
+    
+.cycle-slideshow {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 70%;
+    position: relative;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.cycle-next, .cycle-prev {
+    position: absolute;
+    width: 7%;
+    top: 10%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 130%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.cycle-prev {
+    margin-left: 7%;
+}
+
+.cycle-next {
+    right: 0;
+    margin-right: 62%;
+}
+
+.cycle-slideshow:hover .cycle-next,
+.cycle-slideshow:hover .cycle-prev {
+    opacity: 1;
+}
+
+/* FOOTER */
+
+footer {
+    align-items: center;
+    color: black;
+    font-family: "Gabarito", sans-serif;
+    margin-left: 75%;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 7px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        font-size: 5px;
+        margin-right: 50%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .image-banner {
+        max-width: 150px;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cycle-prev {
+        margin-left: 390px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    table {
+        max-width: 150px;
+        margin-left: 10px;
+        font-size: 150%;
+    }
+}

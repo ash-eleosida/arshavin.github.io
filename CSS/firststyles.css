@@ -1,0 +1,20 @@
+h1{
+    color:green;
+    text-align:center;
+}
+h2{
+    color:green;
+    text-align:center;
+}
+p{
+    color:rgb(199, 103, 103)
+}
+header p{
+    color:rgb(20, 141, 182)
+}
+header p span{
+    color:rgb(255, 115, 0);
+}
+.color {
+    background-color: rgb(255, 255, 0);
+}
