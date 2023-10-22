@@ -1,0 +1,288 @@
+html {
+    background-color: blanchedalmond;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 90%
+}
+
+img {
+    max-width: 100;
+    height: auto;
+}
+
+/* Banner overlay */
+.image-banner {
+    position: relative;
+    top: 3px;
+    bottom: 50px;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 10px;
+}
+
+
+.banner-caption p {
+    color: whitesmoke;
+}
+/* End of banner overlay */
+
+.container { 
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../Image/tiny.jpg) left bottom repeat-x, white url(../Image/tiny.jpg) left top repeat-x;
+    padding-top: 42px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background: url(../Image/torii.webp) no-repeat right center;
+    background-size: cover;
+}
+
+/* Form styles */
+
+form {
+    background-color: whitesmoke;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"], input[type="password"], select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family:Tahoma, sans-serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+}
+
+input, select {
+    font-family:Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+input [type="email"]:focus, input [type="password"]:focus {
+    border: 1px darkgreen;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #798a79;
+    color: black;
+    padding: 10px 0;
+    border: 1px solid #798a79;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+/* End of form styles */
+
+/* Table styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color: darkgreen;
+    color: whitesmoke;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5) ;
+}
+
+table th, table td {
+    border: 1px solid black ;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #798a79;
+}
+
+table th:nth-child(2), table th:nth-child(3),
+table th:nth-child(2), table th:nth-child(3) {
+    text-align: center;
+}
+
+.col-name {
+    width: 60%;
+}
+
+.col-P, .col-Q {
+    width: 20%;
+}
+/* End of table styles */
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: green;
+}
+
+/* Typography */
+
+header h1 { 
+    margin: 0;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 170%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 2px 10px 1px gray;
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: green;
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: green;
+}
+
+/* End of Typography */
+
+.content-area {
+    border-top: 3px solid lightgray;
+    border-bottom: 3px solid lightgray;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color: lightgray;
+    background-image: linear-gradient(to bottom, lightgray, darkgreen);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
+p { 
+    color: black;
+}
+
+footer p { 
+    color: red;
+    text-align: center;
+    font-size: 90%;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header p {
+    color: green;
+}
+
+aside { 
+    color: green;
+}
+
+header p span {
+    color: darkblue;
+}
+
+.highlight {
+    color: crimson;
+    background-color: yellow;
+}
+
+.brand-color { 
+    color: yellow;
+    background-color: blue;
+}
+
+/* Site navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: green;
+    padding: 10px 20px;
+    border: 3px solid green;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: whitesmoke;
+}
+
+/* End of site navigation */

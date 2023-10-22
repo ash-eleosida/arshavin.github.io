@@ -1,0 +1,107 @@
+html {
+    background-color: blanchedalmond;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 90%
+}
+
+.container { 
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: green;
+}
+
+header h1 { 
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+}
+
+.content-area {
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color: whitesmoke;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
+p { 
+    color: gray;
+}
+
+footer p { 
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header p {
+    color: green;
+}
+
+aside { 
+    color: green;
+}
+
+header p span {
+    color: lightskyblue;
+}
+
+.highlight {
+    color: crimson;
+    background-color: yellow;
+}
+
+.brand-color { 
+    color: yellow;
+    background-color: blue;
+}
